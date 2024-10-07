@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    margin-top: 10;
+    padding: 0%;
+}
+
+body{
+    background-image: url(./images/Background.jpg);
+}
+
+/* <!------------------------------Start Game Part-1----------------------------------- --> */
+h1{
+    text-align: center;
+    background-color:  orange;
+    color: white;
+    padding: 13px;
+    /* position: fixed;
+    width: 100%; */
+}
+
+#choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+#choices div img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+}
+
+#choices div img:hover{
+    border: 10px solid orangered;
+}
+
+#Logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13vh;
+
+}
+
+.RockLogo img{
+    height: 95px;
+    width: 107px;
+    object-fit: cover;
+}
+
+.PaperLogo img{
+    height: 78px;
+    width: 160px;
+    object-fit: cover;
+}
+
+.ScissorsLogo img{
+    padding-top: 14px;
+    height: 92px;
+    width: 172px;
+    object-fit: cover;
+}
+/* <!------------------------------End Game Part-1----------------------------------- --> */
+
+/* <!------------------------------Start Game Part-2----------------------------------- --> */
+#gameScore {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 33px;
+    font-weight: bold;
+    gap: 38vh;
+    color: white;
+
+}
+
+.userScore-p1{
+    margin-left: 3.5vh;
+    font-size: 35px;
+}
+
+.computerScore-p1{
+    margin-left: 11.5vh;
+    font-size: 35px;
+}
+/* <!------------------------------End Game Part-2----------------------------------- --> */
+
+/* <!------------------------------Start Game Part 3----------------------------------- --> */
+#messageContainer{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.message{ 
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    display: inline;
+    border-radius: 10px;
+}
+/* <!------------------------------End Game Part-3----------------------------------- --> */
